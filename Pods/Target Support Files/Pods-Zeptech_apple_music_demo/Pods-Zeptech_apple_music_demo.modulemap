@@ -1,0 +1,6 @@
+framework module Pods_Zeptech_apple_music_demo {
+  umbrella header "Pods-Zeptech_apple_music_demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

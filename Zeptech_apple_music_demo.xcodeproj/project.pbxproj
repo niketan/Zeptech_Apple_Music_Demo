@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40017BB75BE26659754DC9F9 /* Pods_Zeptech_apple_music_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6A960DD7585B6191C559E0 /* Pods_Zeptech_apple_music_demo.framework */; };
+		544134091F3AD8DE00D2914B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544134081F3AD8DE00D2914B /* main.m */; };
+		5441340C1F3AD8DE00D2914B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441340B1F3AD8DE00D2914B /* AppDelegate.m */; };
+		5441340F1F3AD8DE00D2914B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441340E1F3AD8DE00D2914B /* ViewController.m */; };
+		544134121F3AD8DE00D2914B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544134101F3AD8DE00D2914B /* Main.storyboard */; };
+		544134151F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 544134131F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodeld */; };
+		544134171F3AD8DE00D2914B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544134161F3AD8DE00D2914B /* Assets.xcassets */; };
+		5441341A1F3AD8DE00D2914B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544134181F3AD8DE00D2914B /* LaunchScreen.storyboard */; };
+		544134231F3ADA5800D2914B /* ServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 544134221F3ADA5800D2914B /* ServerConnection.m */; };
+		544134261F3ADBA200D2914B /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 544134251F3ADBA200D2914B /* Alert.m */; };
+		544134351F3ADBEE00D2914B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441342A1F3ADBEE00D2914B /* NSObject+SBJSON.m */; };
+		544134361F3ADBEE00D2914B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441342C1F3ADBEE00D2914B /* NSString+SBJSON.m */; };
+		544134371F3ADBEE00D2914B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441342E1F3ADBEE00D2914B /* SBJSON.m */; };
+		544134381F3ADBEE00D2914B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 544134301F3ADBEE00D2914B /* SBJsonBase.m */; };
+		544134391F3ADBEE00D2914B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 544134321F3ADBEE00D2914B /* SBJsonParser.m */; };
+		5441343A1F3ADBEE00D2914B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 544134341F3ADBEE00D2914B /* SBJsonWriter.m */; };
+		5441343C1F3ADD4800D2914B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5441343B1F3ADD4800D2914B /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DF6F08DFBB282CBBB3E28EB /* Pods-Zeptech_apple_music_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeptech_apple_music_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zeptech_apple_music_demo/Pods-Zeptech_apple_music_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		544134041F3AD8DE00D2914B /* Zeptech_apple_music_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeptech_apple_music_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		544134081F3AD8DE00D2914B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5441340A1F3AD8DE00D2914B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5441340B1F3AD8DE00D2914B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5441340D1F3AD8DE00D2914B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5441340E1F3AD8DE00D2914B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		544134111F3AD8DE00D2914B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		544134141F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zeptech_apple_music_demo.xcdatamodel; sourceTree = "<group>"; };
+		544134161F3AD8DE00D2914B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		544134191F3AD8DE00D2914B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5441341B1F3AD8DE00D2914B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544134211F3ADA5800D2914B /* ServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConnection.h; sourceTree = "<group>"; };
+		544134221F3ADA5800D2914B /* ServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerConnection.m; sourceTree = "<group>"; };
+		544134241F3ADBA200D2914B /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		544134251F3ADBA200D2914B /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+		544134281F3ADBEE00D2914B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		544134291F3ADBEE00D2914B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5441342A1F3ADBEE00D2914B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		5441342B1F3ADBEE00D2914B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		5441342C1F3ADBEE00D2914B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		5441342D1F3ADBEE00D2914B /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		5441342E1F3ADBEE00D2914B /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		5441342F1F3ADBEE00D2914B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		544134301F3ADBEE00D2914B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		544134311F3ADBEE00D2914B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		544134321F3ADBEE00D2914B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		544134331F3ADBEE00D2914B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		544134341F3ADBEE00D2914B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		5441343B1F3ADD4800D2914B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5441343D1F3ADDB200D2914B /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		5441343E1F3ADDF500D2914B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CC3C5D38DB179441D7A04803 /* Pods-Zeptech_apple_music_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeptech_apple_music_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zeptech_apple_music_demo/Pods-Zeptech_apple_music_demo.release.xcconfig"; sourceTree = "<group>"; };
+		CC6A960DD7585B6191C559E0 /* Pods_Zeptech_apple_music_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeptech_apple_music_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		544134011F3AD8DE00D2914B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5441343C1F3ADD4800D2914B /* UIKit.framework in Frameworks */,
+				40017BB75BE26659754DC9F9 /* Pods_Zeptech_apple_music_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		544133FB1F3AD8DE00D2914B = {
+			isa = PBXGroup;
+			children = (
+				5441343E1F3ADDF500D2914B /* PrefixHeader.pch */,
+				544134271F3ADBE500D2914B /* Json */,
+				544134061F3AD8DE00D2914B /* Zeptech_apple_music_demo */,
+				544134051F3AD8DE00D2914B /* Products */,
+				76D85C82AD5FE6CF0A33E298 /* Pods */,
+				F92247204BE657D2DB5FDF8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		544134051F3AD8DE00D2914B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				544134041F3AD8DE00D2914B /* Zeptech_apple_music_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		544134061F3AD8DE00D2914B /* Zeptech_apple_music_demo */ = {
+			isa = PBXGroup;
+			children = (
+				5441340A1F3AD8DE00D2914B /* AppDelegate.h */,
+				5441340B1F3AD8DE00D2914B /* AppDelegate.m */,
+				5441340D1F3AD8DE00D2914B /* ViewController.h */,
+				5441340E1F3AD8DE00D2914B /* ViewController.m */,
+				544134211F3ADA5800D2914B /* ServerConnection.h */,
+				544134221F3ADA5800D2914B /* ServerConnection.m */,
+				544134241F3ADBA200D2914B /* Alert.h */,
+				544134251F3ADBA200D2914B /* Alert.m */,
+				544134101F3AD8DE00D2914B /* Main.storyboard */,
+				544134161F3AD8DE00D2914B /* Assets.xcassets */,
+				544134181F3AD8DE00D2914B /* LaunchScreen.storyboard */,
+				5441341B1F3AD8DE00D2914B /* Info.plist */,
+				544134131F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodeld */,
+				544134071F3AD8DE00D2914B /* Supporting Files */,
+				5441343D1F3ADDB200D2914B /* Constant.h */,
+			);
+			path = Zeptech_apple_music_demo;
+			sourceTree = "<group>";
+		};
+		544134071F3AD8DE00D2914B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				544134081F3AD8DE00D2914B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		544134271F3ADBE500D2914B /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				544134281F3ADBEE00D2914B /* JSON.h */,
+				544134291F3ADBEE00D2914B /* NSObject+SBJSON.h */,
+				5441342A1F3ADBEE00D2914B /* NSObject+SBJSON.m */,
+				5441342B1F3ADBEE00D2914B /* NSString+SBJSON.h */,
+				5441342C1F3ADBEE00D2914B /* NSString+SBJSON.m */,
+				5441342D1F3ADBEE00D2914B /* SBJSON.h */,
+				5441342E1F3ADBEE00D2914B /* SBJSON.m */,
+				5441342F1F3ADBEE00D2914B /* SBJsonBase.h */,
+				544134301F3ADBEE00D2914B /* SBJsonBase.m */,
+				544134311F3ADBEE00D2914B /* SBJsonParser.h */,
+				544134321F3ADBEE00D2914B /* SBJsonParser.m */,
+				544134331F3ADBEE00D2914B /* SBJsonWriter.h */,
+				544134341F3ADBEE00D2914B /* SBJsonWriter.m */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		76D85C82AD5FE6CF0A33E298 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DF6F08DFBB282CBBB3E28EB /* Pods-Zeptech_apple_music_demo.debug.xcconfig */,
+				CC3C5D38DB179441D7A04803 /* Pods-Zeptech_apple_music_demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F92247204BE657D2DB5FDF8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5441343B1F3ADD4800D2914B /* UIKit.framework */,
+				CC6A960DD7585B6191C559E0 /* Pods_Zeptech_apple_music_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		544134031F3AD8DE00D2914B /* Zeptech_apple_music_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5441341E1F3AD8DE00D2914B /* Build configuration list for PBXNativeTarget "Zeptech_apple_music_demo" */;
+			buildPhases = (
+				3E724CCE748DFE9D2D4AF8F8 /* [CP] Check Pods Manifest.lock */,
+				544134001F3AD8DE00D2914B /* Sources */,
+				544134011F3AD8DE00D2914B /* Frameworks */,
+				544134021F3AD8DE00D2914B /* Resources */,
+				30C2F17B5A4B0713F81A3B59 /* [CP] Embed Pods Frameworks */,
+				7716BD5C6B69476199AC91A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zeptech_apple_music_demo;
+			productName = Zeptech_apple_music_demo;
+			productReference = 544134041F3AD8DE00D2914B /* Zeptech_apple_music_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		544133FC1F3AD8DE00D2914B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Niketan Patel";
+				TargetAttributes = {
+					544134031F3AD8DE00D2914B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T49658X6F7;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 544133FF1F3AD8DE00D2914B /* Build configuration list for PBXProject "Zeptech_apple_music_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 544133FB1F3AD8DE00D2914B;
+			productRefGroup = 544134051F3AD8DE00D2914B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				544134031F3AD8DE00D2914B /* Zeptech_apple_music_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		544134021F3AD8DE00D2914B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5441341A1F3AD8DE00D2914B /* LaunchScreen.storyboard in Resources */,
+				544134171F3AD8DE00D2914B /* Assets.xcassets in Resources */,
+				544134121F3AD8DE00D2914B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30C2F17B5A4B0713F81A3B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zeptech_apple_music_demo/Pods-Zeptech_apple_music_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E724CCE748DFE9D2D4AF8F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7716BD5C6B69476199AC91A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zeptech_apple_music_demo/Pods-Zeptech_apple_music_demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		544134001F3AD8DE00D2914B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544134371F3ADBEE00D2914B /* SBJSON.m in Sources */,
+				5441343A1F3ADBEE00D2914B /* SBJsonWriter.m in Sources */,
+				544134261F3ADBA200D2914B /* Alert.m in Sources */,
+				5441340F1F3AD8DE00D2914B /* ViewController.m in Sources */,
+				544134231F3ADA5800D2914B /* ServerConnection.m in Sources */,
+				544134391F3ADBEE00D2914B /* SBJsonParser.m in Sources */,
+				544134151F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodeld in Sources */,
+				544134351F3ADBEE00D2914B /* NSObject+SBJSON.m in Sources */,
+				5441340C1F3AD8DE00D2914B /* AppDelegate.m in Sources */,
+				544134381F3ADBEE00D2914B /* SBJsonBase.m in Sources */,
+				544134361F3ADBEE00D2914B /* NSString+SBJSON.m in Sources */,
+				544134091F3AD8DE00D2914B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		544134101F3AD8DE00D2914B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544134111F3AD8DE00D2914B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		544134181F3AD8DE00D2914B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544134191F3AD8DE00D2914B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5441341C1F3AD8DE00D2914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5441341D1F3AD8DE00D2914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5441341F1F3AD8DE00D2914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF6F08DFBB282CBBB3E28EB /* Pods-Zeptech_apple_music_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T49658X6F7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Niketan/Work/Demos_Inheritx/Zeptech_apple_music_demo/PrefixHeader.pch;
+				INFOPLIST_FILE = Zeptech_apple_music_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niketan.zaptechdemo.Zeptech-apple-music-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "700bf284-cbda-4148-b7b0-2ba950f87176";
+				PROVISIONING_PROFILE_SPECIFIER = "INX_Development Profile";
+			};
+			name = Debug;
+		};
+		544134201F3AD8DE00D2914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3C5D38DB179441D7A04803 /* Pods-Zeptech_apple_music_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T49658X6F7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Niketan/Work/Demos_Inheritx/Zeptech_apple_music_demo/PrefixHeader.pch;
+				INFOPLIST_FILE = Zeptech_apple_music_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niketan.zaptechdemo.Zeptech-apple-music-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "700bf284-cbda-4148-b7b0-2ba950f87176";
+				PROVISIONING_PROFILE_SPECIFIER = "INX_Development Profile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		544133FF1F3AD8DE00D2914B /* Build configuration list for PBXProject "Zeptech_apple_music_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5441341C1F3AD8DE00D2914B /* Debug */,
+				5441341D1F3AD8DE00D2914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5441341E1F3AD8DE00D2914B /* Build configuration list for PBXNativeTarget "Zeptech_apple_music_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5441341F1F3AD8DE00D2914B /* Debug */,
+				544134201F3AD8DE00D2914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		544134131F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				544134141F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodel */,
+			);
+			currentVersion = 544134141F3AD8DE00D2914B /* Zeptech_apple_music_demo.xcdatamodel */;
+			path = Zeptech_apple_music_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 544133FC1F3AD8DE00D2914B /* Project object */;
+}
